@@ -44,3 +44,7 @@ Run the Script.
 ```
 ./DebloatUpdate.sh
 ```
+
+### Scripts I am working on
+
+I will update this section when required.
