@@ -1,4 +1,4 @@
-# Debloat-Scripts
+# Bash Scripts
 
 ## Scripts List
 
