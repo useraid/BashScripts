@@ -47,4 +47,4 @@ Run the Script.
 
 ### Scripts I am working on
 
-I will update this section when required.
+rtw89 wifi module install script
