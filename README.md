@@ -15,7 +15,7 @@ I plan to update it in the future to make it more user friendly and provide more
 
 Use 'curl' to download the script.
 ```
-curl -O https://raw.githubusercontent.com/useraid/Debloat-Scripts/main/ArchInstall.sh
+curl -O https://raw.githubusercontent.com/useraid/BashScripts/main/ArchInstall.sh
 ```
 Make it executable.
 ```
@@ -34,7 +34,7 @@ Ubuntu 20.04 Debloat
 
 Use 'curl' to download the script.
 ```
-curl -O https://raw.githubusercontent.com/useraid/Debloat-Scripts/main/DebloatUpdate.sh
+curl -O https://raw.githubusercontent.com/useraid/BashScripts/main/DebloatUpdate.sh
 ```
 Make it executable.
 ```
