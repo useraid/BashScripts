@@ -4,6 +4,7 @@
 
 - [Arch Install Script](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#archinstall-script)
 - [Ubuntu 20.04 Debloat Script](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#ubuntu-2004-debloat-script)
+- [Realtek rtw89 Installer](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#realtek-rtw89-installer)
 
 
 ## Arch Install Script 
@@ -45,6 +46,26 @@ Run the Script.
 ./DebloatUpdate.sh
 ```
 
+## Realtek rtw89 Installer
+
+Install Script for rtw89 wifi modules.
+Note - You need to enroll the generated keys and enter the correct password for the module to load correctly.
+
+### How to use the script
+
+Use 'curl' to download the script.
+```
+curl -O https://raw.githubusercontent.com/useraid/BashScripts/main/rtw89Installer.sh
+```
+Make it executable.
+```
+chmod +x rtw89Installer.sh
+```
+Run the Script.
+```
+./rtw89Installer.sh
+```
+
 ### Scripts I am working on
 
-rtw89 wifi module install script
+-The in-progress scripts will be added here-
