@@ -5,6 +5,7 @@
 - [Arch Install Script](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#archinstall-script)
 - [Ubuntu 20.04 Debloat Script](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#ubuntu-2004-debloat-script)
 - [Realtek rtw89 Installer](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#realtek-rtw89-installer)
+- [gcc Output Auto-Deleter](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#gcc-output-auto-deleter)
 
 
 ## Arch Install Script 
@@ -64,6 +65,25 @@ chmod +x rtw89Installer.sh
 Run the Script.
 ```
 ./rtw89Installer.sh
+```
+
+## gcc Output Auto-Deleter
+
+This allows the user to run the C++ program and deletes the complied executable after execution.
+
+### How to use the script
+
+Use 'curl' to download the script.
+```
+curl -O https://raw.githubusercontent.com/useraid/BashScripts/main/gad.sh
+```
+Make it executable.
+```
+chmod +x gad.sh
+```
+To use the script, use this syntax.
+```
+./gad.sh <filename>
 ```
 
 ### Scripts I am working on
