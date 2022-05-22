@@ -71,6 +71,8 @@ Run the Script.
 
 This allows the user to run the C++ program and deletes the complied executable after execution.
 
+**You can [edit the code runner settings.json](https://gist.github.com/useraid/8dda6404cb84a346c1d4cb35c65f7065) to accomplish the same and is the recommended method.**
+
 ### How to use the script
 
 Use 'curl' to download the script.
