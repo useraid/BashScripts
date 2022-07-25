@@ -5,7 +5,7 @@
 - [Arch Install Script](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#archinstall-script)
 - [Ubuntu 20.04 Debloat Script](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#ubuntu-2004-debloat-script)
 - [Realtek rtw89 Installer](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#realtek-rtw89-installer)
-- [gcc Output Auto-Deleter](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#gcc-output-auto-deleter)
+- [gcc Output Auto-Deleter](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#gcc-Output-Auto-Deleter)
 
 
 ## Arch Install Script 
