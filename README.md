@@ -6,6 +6,7 @@
 - [Ubuntu 20.04 Debloat Script](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#ubuntu-2004-debloat-script)
 - [Realtek rtw89 Installer](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#realtek-rtw89-installer)
 - [gcc Output Auto-Deleter](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#gcc-Output-Auto-Deleter)
+- [Debian Package Builder](#Debian-Package-Builder)
 
 
 ## Arch Install Script 
@@ -15,7 +16,7 @@ I plan to update it in the future to make it more user friendly and provide more
 
 ### How to use the script
 
-Use 'curl' to download the script.
+Use `curl` to download the script.
 ```
 curl -O https://raw.githubusercontent.com/useraid/BashScripts/main/ArchInstall.sh
 ```
@@ -34,7 +35,7 @@ Ubuntu 20.04 Debloat
 
 ### How to use the script
 
-Use 'curl' to download the script.
+Use `curl` to download the script.
 ```
 curl -O https://raw.githubusercontent.com/useraid/BashScripts/main/DebloatUpdate.sh
 ```
@@ -54,7 +55,7 @@ Note - You need to enroll the generated keys and enter the correct password for 
 
 ### How to use the script
 
-Use 'curl' to download the script.
+Use `curl` to download the script.
 ```
 curl -O https://raw.githubusercontent.com/useraid/BashScripts/main/rtw89Installer.sh
 ```
@@ -75,7 +76,7 @@ This allows the user to run the C++ program and deletes the complied executable 
 
 ### How to use the script
 
-Use 'curl' to download the script.
+Use `curl` to download the script.
 ```
 curl -O https://raw.githubusercontent.com/useraid/BashScripts/main/gad.sh
 ```
@@ -87,6 +88,27 @@ To use the script, use this syntax.
 ```
 ./gad.sh <filename>
 ```
+## Debian Package Builder
+This allows you to build script based programs and create a debian package to install into debian based distros.
+
+### How to use the script
+
+Use `curl` to download script.
+```
+curl -O https://raw.githubusercontent.com/useraid/BashScripts/main/builder.sh
+```
+Make it executable.
+```
+chmod +x builder.sh
+```
+Run the script
+```
+./builder.sh
+```
+The script will ask for user input for package name and package version. 
+
+**Note** - Use `cd` to move into DEBAIN directory if you want to change the default maintainer and package description.
+
 
 ### Scripts I am working on
 
