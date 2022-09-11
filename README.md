@@ -2,12 +2,12 @@
 
 ## Scripts List
 
-- [Arch Install Script](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#archinstall-script)
-- [Ubuntu 20.04 Debloat Script](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#ubuntu-2004-debloat-script)
-- [Realtek rtw89 Installer](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#realtek-rtw89-installer)
-- [gcc Output Auto-Deleter](https://github.com/useraid/Debloat-Scripts/blob/main/README.md#gcc-Output-Auto-Deleter)
+- [Arch Install Script](#archinstall-script)
+- [Ubuntu 20.04 Debloat Script](#ubuntu-2004-debloat-script)
+- [Realtek rtw89 Installer](#realtek-rtw89-installer)
+- [gcc Output Auto-Deleter](#gcc-Output-Auto-Deleter)
 - [Debian Package Builder](#Debian-Package-Builder)
-
+- [Scripts I am working on](#Scripts-I-am-working-on)
 
 ## Arch Install Script 
 
@@ -110,6 +110,6 @@ The script will ask for user input for package name and package version.
 **Note** - Use `cd` to move into DEBAIN directory if you want to change the default maintainer and package description.
 
 
-### Scripts I am working on
+## Scripts I am working on
 
--The in-progress scripts will be added here-
+Check out [AutomatedMediaSrv](https://github.com/useraid/AutomatedMediaSrv) Project. It is essentially a script to create a self hosted media server based on docker containers.
