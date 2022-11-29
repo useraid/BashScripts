@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "Choose Build(stable/devel): "
+read -r ver
+
+
+if [[ $ver != "stable" ]]
+then
+    echo "Enter correct version"
+    exit 1
+elif [[ $ver != "devel" ]]
+then
+    echo "Enter correct version"
+    exit 1
+fi
+
+sudo dpkg --add-architecture i386	
+wget -qO- https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+sudo apt-get -y install software-properties-common
+sudo apt-add-repository "deb https://dl.winehq.org/wine-builds/ubuntu/ $(lsb_release -cs) main"
+sudo apt-get -y update
+sudo apt install -y --install-recommends winehq-$ver
